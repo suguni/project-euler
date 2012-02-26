@@ -53,3 +53,5 @@
     (apply max (iter n 2 []))))
 
 ;; (p3-3 600851475143) => 6857
+
+;; prime factorization(http://en.wikipedia.org/wiki/Prime_factorization) 문제인거 같은데...
