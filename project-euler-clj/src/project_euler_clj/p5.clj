@@ -61,3 +61,6 @@
 (deftest p5-test
   (is (= (p5 (range 1 11)) 2520))
   (is (= (p5 (range 1 21)) 232792560))) ;; solved!
+
+;; prime-factors는 lazy-sequence를 반환하도록 하면 좋을거 같은데...
+;; 풀이에는 상관 없나???
