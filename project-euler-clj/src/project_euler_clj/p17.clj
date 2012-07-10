@@ -49,6 +49,7 @@
 
 (defn p17 []
   (apply + (map vector-string-count (map number-to-words (range 1 1001)))))
+;; => 21124
 
 (deftest test-vector-string-count
   (is (= (vector-string-count ["three" "hundred" "and" "forty" "two"]) 23))
