@@ -4,7 +4,7 @@
 
 ;; d is sum of proper divisors
 ;; d(220) = 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
-;; amicable number : a, b where d(a) = b and d(b) = a
+;; amicable number : a, b where d(a) = b and d(b) = a and a != b
 
 (defn p21 [n]
   (apply + (reduce #(clojure.set/union %1 %2)
